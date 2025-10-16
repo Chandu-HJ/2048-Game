@@ -1,0 +1,14 @@
+.message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.win {
+  color: #22c55e;
+}
+
+.game-over {
+  color: #ef4444;
+}

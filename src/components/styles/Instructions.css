@@ -1,0 +1,15 @@
+.instructions {
+  margin-top: 32px;
+  max-width: 448px;
+  color: #e5e7eb;
+}
+
+.instructions h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.instructions p {
+  font-size: 1rem;
+}

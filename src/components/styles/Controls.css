@@ -1,0 +1,62 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  background: linear-gradient(90deg, #4b5563 0%, #374151 100%);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #374151 0%, #1f2937 100%);
+  transform: translateY(-2px);
+}
+
+.new-game-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  background: linear-gradient(90deg, #7c3aed 0%, #4c1d95 100%);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.new-game-button:hover {
+  background: linear-gradient(90deg, #6d28d9 0%, #3b0764 100%);
+  transform: translateY(-2px);
+}
+
+.config {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.config-label {
+  color: #e5e7eb;
+  font-size: 1rem;
+}
+
+.config-input {
+  width: 64px;
+  padding: 8px;
+  margin-left: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #ffffff;
+}
