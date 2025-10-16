@@ -10,7 +10,7 @@ const addRandomTile = (board) => {
   board.forEach((row, i) => row.forEach((val, j) => { if (val === 0) empty.push([i, j]); }));
   if (empty.length > 0) {
     const [i, j] = empty[Math.floor(Math.random() * empty.length)];
-    board[i][j] = Math.random() < 0.9 ? 2 : 4;
+    board[i][j] = Math.random() < 0.5 ? 2 : 4;
   }
   return board;
 };
