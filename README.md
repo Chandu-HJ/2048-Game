@@ -1,16 +1,72 @@
-# React + Vite
+# 🎮 2048 Game – React (GUI Version)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional implementation of the classic **2048 Game** built using **React**.  
+This version includes a clean graphical UI and supports a configurable **n × n board** (default: 4×4).  
+The game begins with two randomly placed tiles (2 or 4), and players combine tiles to reach **2048**.
 
-Currently, two official plugins are available:
+🔗 Live Demo:  
+https://chandu-hj.github.io/2048-Game/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ⭐ Features
+- React-based 2048 game  
+- Smooth tile movement and merging  
+- Configurable board size (default 4×4)  
+- Random tile generation (2 or 4)  
+- Keyboard controls for movement  
+- Clean and modern UI  
+- Fully responsive design  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Technologies Used
+- **React**  
+- **JavaScript (ES6+)**  
+- **HTML5**  
+- **CSS3**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+2048-Game/  
+│── src/  
+│   ├── components/  
+│   ├── utils/  
+│   ├── App.js  
+│   ├── index.js  
+│── public/  
+│── package.json  
+└── README.md  
+
+---
+
+## 🎯 Game Rules
+- Use **Arrow Keys** to move tiles up, down, left, or right  
+- Tiles with the same number **merge** to form a new tile  
+- After every move, a new tile (2 or 4) appears  
+- The goal is to create a **2048 tile**  
+- Game ends when no more moves are possible  
+
+---
+
+## 📚 What I Learned
+- Managing game state using React  
+- Handling grid-based movement logic  
+- Implementing merge mechanics  
+- Using React components for UI updates  
+- Keyboard event handling  
+- Responsive styling techniques  
+
+
+
+---
+
+## 🙌 Acknowledgements
+Inspired by the original **2048 Game by Gabriele Cirulli**.  
+Built purely for learning and fun using React.
+
+---
+
+## 📬 Contact
+**GitHub:** https://github.com/Chandu-HJ
